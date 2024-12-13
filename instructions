@@ -1,0 +1,16 @@
+1.Run the Script: Run the script using Python:
+
+Copy code
+python dns_enum.py
+
+
+2.Input Domain: Enter the domain you want to enumerate when prompted:
+Enter domain to enumerate: example.com
+
+3.View Results: The script will display:
+DNS records (A, MX, NS, TXT, SOA).
+The nameservers for the domain.
+Any successful zone transfer records.
+The reverse DNS record for the domain’s IP address.
+Verbose Output: The script provides detailed information on the steps it takes and the results, making it easier to follow the process and troubleshoot issues.
+
